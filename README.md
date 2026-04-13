@@ -97,17 +97,25 @@ https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
 
 🧱 SQL Data Model (Star Schema)
 
-
                 ┌──────────────────────────────┐
                 │      DIMENSION TABLES        │
                 └──────────────────────────────┘
 
- DIM_DATE            DIM_HOTELS                DIM_ROOMS
- --------            ----------                ----------
- date_id             property_id               room_id
- full_date           property_name             room_category
- month               city                      capacity
- year                ...                       ...
+ DIM_DATE 
+  - date_id    
+  - full_date       
+  - month       
+  - year
+ 
+ DIM_HOTELS               
+   - property_id
+   - property_name
+   - city
+ 
+ DIM_ROOMS
+  - room_id
+  - room_category
+  - capacity
 
 
                 ┌──────────────────────────────┐
@@ -137,27 +145,6 @@ https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
   - occupancy
 
     
-DIMENSION TABLES
-───────────────────────────────────────────────
-DIM_DATE         DIM_HOTELS          DIM_ROOMS
-date_id          property_id         room_id
-full_date        property_name       room_category
-month            city                capacity
-year             ...
-
-FACT TABLES
-───────────────────────────────────────────────
-FACT_BOOKINGS
-booking_id, property_id, customer_id,
-booking_date, check_in_date, checkout_date,
-room_category, booking_channel, no_guests,
-revenue_realized, booking_status, ratings_given
-
-FACT_AGGREGATED_BOOKINGS
-date_id, property_id, room_category,
-capacity, successful_bookings, occupancy
-
-
 🔄 Data Integration Workflow (Actual Process Used)
 CSV Files → Excel (Dashboard)
 CSV Files → Tableau (Dashboard)
