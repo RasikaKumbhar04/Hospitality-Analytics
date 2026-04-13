@@ -9,10 +9,13 @@ https://drive.google.com/file/d/1wD2_f8f3GaeIznLsZ3te4fglBPGDxPK7/view?usp=drive
 ------------------------------------------------------------------------------------------------------------------
 
 ⭐ Project Summary
+
 This project demonstrates the full data analytics lifecycle:
-✅ Data Import → Cleaning → SQL Modeling
-✅ Dashboard Development → Insights
-✅ Final Business Recommendations
+
+      ✅ Data Import → Cleaning → SQL Modeling
+      ✅ Dashboard Development → Insights
+      ✅ Final Business Recommendations
+      
 It is designed as an industry-ready BI project showcasing strong skills in data engineering, SQL development, visualization, and analytical storytelling.
 
 -----------------------------------------------------------------------------------------------------------------
