@@ -2,87 +2,80 @@
 
 ## Project Overview
 
-This project provides **comprehensive analytics and insights** into hospitality operations through SQL-based data analysis and Tableau visualizations. The project analyzes hotel booking data to uncover key performance indicators (KPIs), revenue trends, and operational metrics across multiple properties and cities.
+End‑to‑end Hospitality Data Analytics using SQL, Excel, Tableau & Power BI
+
+This project delivers a complete analytics solution for hotel performance monitoring across multiple properties and cities. It includes data cleaning, SQL modeling, dashboard development, and deep business insights derived from booking and operational data.
 
 https://drive.google.com/file/d/1wD2_f8f3GaeIznLsZ3te4fglBPGDxPK7/view?usp=drive_link
 
 ------------------------------------------------------------------------------------------------------------------
 
-⭐ Project Summary
+⭐ Executive Summary
 
-This project demonstrates the full data analytics lifecycle:
+This project demonstrates the full analytics lifecycle:
 
       ✅ Data Import → Cleaning → SQL Modeling
-      ✅ Dashboard Development → Insights
-      ✅ Final Business Recommendations
+      ✅ Dashboard Development in Excel, Tableau, Power BI
+      ✅ KPI Analysis → Booking Trends → Revenue Insights → Operational Insights
+      ✅ Action‑oriented business recommendations
       
-It is designed as an industry-ready BI project showcasing strong skills in data engineering, SQL development, visualization, and analytical storytelling.
+Designed as an industry‑ready BI project, this showcases strong skills across SQL, data modeling, visualization, and analytical storytelling.
 
------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 
 ✅ Project Scope & Responsibilities
 
-✓ Data Preparation & Cleaning
+1. Data Preparation & Cleaning
+   
+      - Imported raw CSVs into Excel, Tableau, and MySQL
+      - Cleaned null values, standardized dates, formats, and labels
+      - Ensured consistent schemas across all BI tools
 
-      - Imported raw CSV files directly into Excel and Tableau
-      - Loaded datasets into SQL using the MySQL Import Wizard
-      - Cleaned nulls, standardized dates, formats, and categories
-    
-    Ensured consistent schemas across SQL, Excel, Power BI, and Tableau
+3. Data Relationships & Modeling
+   
+      Established primary relationships across:
 
-✓ Creating Data Relationships
+            dim_date
+            dim_hotels
+            dim_rooms
+            fact_bookings
+            fact_aggregated_bookings
 
-      - Built relationships between:
-    
-        - dim_date
-        - dim_hotels
-        - dim_rooms
-        - fact_bookings
-        - fact_aggregated_bookings
-    
-    Ensured integrity for joins, filters, and dashboard performance
+      Ensured proper joins for accurate KPI calculations and dashboard performance.
 
-✓ Writing SQL Queries for Analysis
+4. SQL Analysis & KPI Computation
+   
+   Developed SQL queries for:
+      
+            Revenue KPIs
+            Occupancy calculations
+            Demand patterns
+            Cancellation & no‑show analysis
+            Customer rating insights
 
-      - Created analytical queries for:
-      - Revenue KPIs
-      - Occupancy calculations
-      - Booking trends
-      - Customer loyalty metrics
-      - Cancellation & no‑show patterns
-    
-    Built aggregated metrics for BI dashboards
+5. Dashboard Development
+   
+            ✅ Excel → Pivot charts, slicers, interactive KPIs
+            ✅ Tableau → Storytelling dashboards for executives
+            ✅ Power BI → Live SQL connectivity, DAX measures, drill‑downs
+   
+      All dashboards include filters for: City, Property, Channel, Room Category, Date.
 
-✓ Dashboard Development
+6. Business Insights & Recommendations
 
-      - Excel: Imported CSV → Pivot charts → Slicers → KPI cards 
-      - Tableau: Imported CSV → Visual storytelling dashboards 
-      - Power BI: Direct SQL connection → Drill‑through → Measures → DAX
-    
-    All dashboards include filters for Property, City, Date, Channel, Room Category.
-
-✓ Generating Business Insights
-
-      - Identified key revenue drivers
-      - Analyzed booking channel performance
-      - Explored guest ratings
-      - Highlighted high/low occupancy patterns
-    
-    Delivered actionable improvements for revenue & operations
+      - Identified top‑performing cities & properties
+      - Analyzed booking channels and revenue drivers
+      - Evaluated customer satisfaction trends
+      - Highlighted operational inefficiencies
 
 ------------------------------------------------------------------------------------------------------------------
 
 ✅ Tools & Technologies
 
-https://img.shields.io/badge/SQL-MySQL-blue
-
-https://img.shields.io/badge/Excel-Dashboard-green
-
-https://img.shields.io/badge/Power%20BI-Analytics-yellow
-
-https://img.shields.io/badge/Tableau-Visualization-orange
-
-https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
+      - MySQL (SQL Development)
+      - Excel (Pivot-based Dashboarding)
+      - Power BI (Live SQL Connection, DAX Measures)
+      - Tableau (Visual Storytelling)
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -187,15 +180,17 @@ Fact Tables
       - CSV Files → MySQL (Import Wizard)
       - SQL Database → Power BI (Live Connection)
 
-✅ Accurate to your real workflow
-✅ No unnecessary ETL complexity
+✅Accurate to a real-world BI workflow
+
+✅ Minimal transformations, clean & efficient
 
 -----------------------------------------------------------------------------------------------------------------
 
 📊 Dashboards
 
 ✅ 1. Excel Dashboard
-Interactive pivot-based dashboard for fast KPI analysis.
+
+Interactive KPI dashboard built using Pivot Tables, charts, slicers.
 
 📌 Includes:
 
@@ -210,7 +205,8 @@ Interactive pivot-based dashboard for fast KPI analysis.
 📸 Screenshot: https://drive.google.com/file/d/12qSPE6LaIEQMCZN_nQWh0iafnsyudKWU/view?usp=drive_link
 
 ✅ 2. Power BI Dashboard
-Connected directly to the SQL database for live-refresh analytics.
+
+Connected live with SQL for real-time updates.
 
 📌 Includes:
 
@@ -225,7 +221,8 @@ Connected directly to the SQL database for live-refresh analytics.
 📸 Screenshot: https://drive.google.com/file/d/1_NhXmSf2tUuh72DVzYVIvCAsd_1Cw0sr/view?usp=drive_link
 
 ✅ 3. Tableau Dashboard
-Beautiful storytelling dashboards for executives.
+
+Executive storytelling dashboard with multi-level KPIs
 
 📌 Includes:
 
