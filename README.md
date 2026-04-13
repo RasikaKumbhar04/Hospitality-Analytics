@@ -6,7 +6,8 @@ End‑to‑end Hospitality Data Analytics using SQL, Excel, Tableau & Power BI
 
 This project delivers a complete analytics solution for hotel performance monitoring across multiple properties and cities. It includes data cleaning, SQL modeling, dashboard development, and deep business insights derived from booking and operational data.
 
-https://drive.google.com/file/d/1wD2_f8f3GaeIznLsZ3te4fglBPGDxPK7/view?usp=drive_link
+<img width="850" height="450" alt="Banner" src="https://github.com/user-attachments/assets/bc265442-2948-4bdf-9de7-0b2277d797e5" />
+
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -204,6 +205,10 @@ Interactive KPI dashboard built using Pivot Tables, charts, slicers.
 
 📸 Screenshot: https://drive.google.com/file/d/12qSPE6LaIEQMCZN_nQWh0iafnsyudKWU/view?usp=drive_link
 
+<img width="850" height="655" alt="Excel Dashboard - HA" src="https://github.com/user-attachments/assets/f6954d80-188f-4936-8267-c416ba624835" />
+
+
+
 ✅ 2. Power BI Dashboard
 
 Connected live with SQL for real-time updates.
@@ -220,6 +225,10 @@ Connected live with SQL for real-time updates.
 
 📸 Screenshot: https://drive.google.com/file/d/1_NhXmSf2tUuh72DVzYVIvCAsd_1Cw0sr/view?usp=drive_link
 
+<img width="850" height="671" alt="PowerBI Dashboard - HA" src="https://github.com/user-attachments/assets/5a00d8fe-19b1-47e7-87ac-f95bfba02472" />
+
+
+
 ✅ 3. Tableau Dashboard
 
 Executive storytelling dashboard with multi-level KPIs
@@ -234,6 +243,9 @@ Executive storytelling dashboard with multi-level KPIs
 📁 https://drive.google.com/file/d/1GHtIQEqWl7acfbeyhP2swBqB1ghPgiDw/view?usp=drive_link
 
 📸 Screenshot: https://drive.google.com/file/d/1Q-u-kkbKv_O5yl1QW0Ns8RBshbeh5SVd/view?usp=drive_link
+
+<img width="835" height="368" alt="Tableau Dashboard - HA" src="https://github.com/user-attachments/assets/69275edc-e16e-435e-89ba-fef24da7ddc6" />
+
 
 ------------------------------------------------------------------------------------------------------------------
 
