@@ -94,7 +94,49 @@ https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
 | fact_aggregated_booking   | Summary metrics such as occupancy, capacity, and successful bookings |
 
 
+
 🧱 SQL Data Model (Star Schema)
+
+
+                ┌──────────────────────────────┐
+                │      DIMENSION TABLES        │
+                └──────────────────────────────┘
+
+ DIM_DATE            DIM_HOTELS                DIM_ROOMS
+ --------            ----------                ----------
+ date_id             property_id               room_id
+ full_date           property_name             room_category
+ month               city                      capacity
+ year                ...                       ...
+
+
+                ┌──────────────────────────────┐
+                │         FACT TABLES          │
+                └──────────────────────────────┘
+
+ FACT_BOOKINGS
+  - booking_id
+  - property_id
+  - customer_id
+  - booking_date
+  - check_in_date
+  - checkout_date
+  - room_category
+  - booking_channel
+  - no_guests
+  - revenue_realized
+  - booking_status
+  - ratings_given
+
+ FACT_AGGREGATED_BOOKINGS
+  - date_id
+  - property_id
+  - room_category
+  - capacity
+  - successful_bookings
+  - occupancy
+
+    
 DIMENSION TABLES
 ───────────────────────────────────────────────
 DIM_DATE         DIM_HOTELS          DIM_ROOMS
