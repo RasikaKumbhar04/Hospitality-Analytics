@@ -203,9 +203,8 @@ Interactive KPI dashboard built using Pivot Tables, charts, slicers.
 
 📁 https://drive.google.com/file/d/1Sw2JRU57IS5q2XjwUKiUnsYIJVEpHQP4/view?usp=drive_link
 
-📸 Screenshot: https://drive.google.com/file/d/12qSPE6LaIEQMCZN_nQWh0iafnsyudKWU/view?usp=drive_link
+📸 Screenshot:<img width="850" height="656" alt="image" src="https://github.com/user-attachments/assets/7852621b-3232-4744-b8f9-e7da2dd37d8f" />
 
-<img width="850" height="655" alt="Excel Dashboard - HA" src="https://github.com/user-attachments/assets/f6954d80-188f-4936-8267-c416ba624835" />
 
 
 
@@ -223,9 +222,7 @@ Connected live with SQL for real-time updates.
 
 📁 https://drive.google.com/file/d/1l2NbdRRTLVBoMEDzBihJaxyplyzTo5Xy/view?usp=drive_link
 
-📸 Screenshot: https://drive.google.com/file/d/1_NhXmSf2tUuh72DVzYVIvCAsd_1Cw0sr/view?usp=drive_link
-
-<img width="850" height="671" alt="PowerBI Dashboard - HA" src="https://github.com/user-attachments/assets/5a00d8fe-19b1-47e7-87ac-f95bfba02472" />
+📸 Screenshot: <img width="850" height="671" alt="PowerBI Dashboard - HA" src="https://github.com/user-attachments/assets/5a00d8fe-19b1-47e7-87ac-f95bfba02472" />
 
 
 
@@ -242,9 +239,7 @@ Executive storytelling dashboard with multi-level KPIs
 
 📁 https://drive.google.com/file/d/1GHtIQEqWl7acfbeyhP2swBqB1ghPgiDw/view?usp=drive_link
 
-📸 Screenshot: https://drive.google.com/file/d/1Q-u-kkbKv_O5yl1QW0Ns8RBshbeh5SVd/view?usp=drive_link
-
-<img width="835" height="368" alt="Tableau Dashboard - HA" src="https://github.com/user-attachments/assets/69275edc-e16e-435e-89ba-fef24da7ddc6" />
+📸 Screenshot: <img width="835" height="368" alt="Tableau Dashboard - HA" src="https://github.com/user-attachments/assets/69275edc-e16e-435e-89ba-fef24da7ddc6" />
 
 
 ------------------------------------------------------------------------------------------------------------------
