@@ -113,10 +113,11 @@ https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
                 │  room_category = room_id                 │  room_category = room_id
                 │                                          │
              dim_rooms                                  dim_rooms
-     
-                ┌──────────────────────────────┐
-                │      DIMENSION TABLES        │
-                └──────────────────────────────┘
+
+     ---------------------------------------------------------------------------------------------------
+┌──────────────────────────────┐
+│      DIMENSION TABLES        │
+└──────────────────────────────┘
 
  DIM_DATE 
   - date_id    
@@ -135,9 +136,9 @@ https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
   - capacity
 
 
-                ┌──────────────────────────────┐
-                │         FACT TABLES          │
-                └──────────────────────────────┘
+┌──────────────────────────────┐
+│         FACT TABLES          │
+└──────────────────────────────┘
 
  FACT_BOOKINGS
   - booking_id
@@ -163,6 +164,7 @@ https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
 
     
 🔄 Data Integration Workflow (Actual Process Used)
+
 CSV Files → Excel (Dashboard)
 CSV Files → Tableau (Dashboard)
 CSV Files → MySQL (Import Wizard)
