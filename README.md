@@ -97,6 +97,23 @@ https://img.shields.io/badge/Data%20Cleaning-CSV%20Files-red
 
 🧱 SQL Data Model (Star Schema)
 
+                          dim_date
+                             │
+                             │  date_id = check_in_date
+                             │
+                ─────────────────────────────────────────
+                │                                          │
+                │                                          │
+        fact_bookings                           fact_aggregated_bookings
+                │                                          │
+                │  property_id                             │  property_id
+                │                                          │
+             dim_hotels                                dim_hotels
+                │                                          │
+                │  room_category = room_id                 │  room_category = room_id
+                │                                          │
+             dim_rooms                                  dim_rooms
+     
                 ┌──────────────────────────────┐
                 │      DIMENSION TABLES        │
                 └──────────────────────────────┘
