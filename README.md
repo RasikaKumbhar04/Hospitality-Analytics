@@ -23,7 +23,7 @@ Designed as an industry‑ready BI project, this showcases strong skills across 
 
 ------------------------------------------------------------------------------------------------------------------
 
-✅ Project Scope & Responsibilities
+⭐ Project Scope & Responsibilities
 
 1. Data Preparation & Cleaning
    
@@ -70,7 +70,7 @@ Designed as an industry‑ready BI project, this showcases strong skills across 
 
 ------------------------------------------------------------------------------------------------------------------
 
-✅ Tools & Technologies
+⭐ Tools & Technologies
 
       - MySQL (SQL Development)
       - Excel (Pivot-based Dashboarding)
@@ -239,26 +239,26 @@ Executive storytelling dashboard with multi-level KPIs
 
 📈 Key Business Insights
 
-✅ 1. Revenue Insights
+ 1. Revenue Insights
 
       - Weekdays generate the majority of revenue, contributing ₹1.06B+, driven by business travel.
       - Mumbai and top properties like Shodwe Palace contribute a large share of total revenue.
       - Elite room category drives the highest revenue due to strong demand and higher pricing.
 
-✅ 2. Booking Behavior Insights
+ 2. Booking Behavior Insights
 
       - Bookings are highest during weekdays (84,365 bookings) but occupancy is lower compared to weekends.
       - Corporate channel is the biggest driver of bookings (34,009), making it the most reliable source of demand.
       - High cancellation rate (24.83%) and missing cancellation reasons indicate operational gaps in booking data.
 
-✅ 3. Operational Insights
+ 3. Operational Insights
 
       - Weekend occupancy (73.58%) is significantly stronger than weekday occupancy (51.34%), showing better utilization on weekends.
       - No-shows (5.02%) directly impact realized revenue and daily planning.
       - Properties like Shodwe Palace outperform others, indicating varying utilization across the portfolio.
 
 
-✅ 4. Customer Insights
+ 4. Customer Insights
 
       - Guest feedback participation is low (77,907 ratings missing), limiting understanding of customer experience.
       - Among submitted ratings, the average score is 3.62, showing moderate satisfaction.
@@ -266,7 +266,7 @@ Executive storytelling dashboard with multi-level KPIs
 
 -----------------------------------------------------------------------------------------------------------------
 
-✅ SQL Analysis Examples
+⭐ SQL Analysis Examples
 
         Total Revenue
             select sum(revenue_realized) as "Total_Revenue" from Fact_bookings;
@@ -282,25 +282,25 @@ Executive storytelling dashboard with multi-level KPIs
 
 🚀 How to Run This Project
 
-✅ Excel
+ Excel
 
     Open Excel file
     Click Refresh All
     Use slicers to interact
 
-✅ SQL
+ SQL
 
     Import CSV files using MySQL Import Wizard
     Run Hospitality Analytics - SQL.sql
     Execute queries
 
-✅ Power BI
+ Power BI
 
     Open .pbix file
     Update SQL connection credentials
     Refresh dashboard
 
-✅ Tableau
+ Tableau
 
     Open .twbx file
     Replace CSV file paths if required
