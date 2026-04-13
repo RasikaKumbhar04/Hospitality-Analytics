@@ -244,40 +244,42 @@ Beautiful storytelling dashboards for executives.
 
 ✅ 1. Revenue Insights
 
-    City A & City B contribute 60%+ of total revenue
-    Premium rooms have higher revenue per booking
-    Revenue dips visible during off-season months
+      - Weekdays generate the majority of revenue, contributing ₹1.06B+, driven by business travel.
+      - Mumbai and top properties like Shodwe Palace contribute a large share of total revenue.
+      - Elite room category drives the highest revenue due to strong demand and higher pricing.
 
 ✅ 2. Booking Behavior Insights
 
-    OTA channels drive most bookings but have highest cancellation rate
-    Direct bookings show best customer ratings
-    Guests prefer bookings in peak months (April–June, Oct–Dec)
+      - Bookings are highest during weekdays (84,365 bookings) but occupancy is lower compared to weekends.
+      - Corporate channel is the biggest driver of bookings (34,009), making it the most reliable source of demand.
+      - High cancellation rate (24.83%) and missing cancellation reasons indicate operational gaps in booking data.
 
 ✅ 3. Operational Insights
 
-    Several properties have high capacity but low occupancy
-    No-shows heavily impact weekend revenue
-    Longer stays correlate with higher satisfaction
+      - Weekend occupancy (73.58%) is significantly stronger than weekday occupancy (51.34%), showing better utilization on weekends.
+      - No-shows (5.02%) directly impact realized revenue and daily planning.
+      - Properties like Shodwe Palace outperform others, indicating varying utilization across the portfolio.
+
 
 ✅ 4. Customer Insights
 
-    Loyalty members generate higher repeat revenue
-    Younger customers prefer shorter stays
-    Older customers give higher ratings
+      - Guest feedback participation is low (77,907 ratings missing), limiting understanding of customer experience.
+      - Among submitted ratings, the average score is 3.62, showing moderate satisfaction.
+      - Elite rooms, being most booked, may reflect customer preference for premium amenities.
 
 -----------------------------------------------------------------------------------------------------------------
 
 ✅ SQL Analysis Examples
 
-  Total Revenue
-      SELECT SUM(revenue_realized) AS total_revenueFROM fact_bookings;
-  
-  Occupancy %
-      SELECT ROUND(SUM(successful_bookings)/SUM(capacity)*100,2) AS occupancy_rateFROM fact_aggregated_booking;
-  
-  Revenue by City
-      SELECT h.city, SUM(f.revenue_realized) FROM fact_bookings fJOIN dim_hotels h USING(property_id)GROUP BY h.cityORDER BY 2 DESC;
+        Total Revenue
+            select sum(revenue_realized) as "Total_Revenue" from Fact_bookings;
+        
+        Total Bookings
+            select count(*) as "Total_Bookings" from fact_bookings;
+      
+        City wise Revenue
+            Select T2.City, sum(T1.revenue_realized) as Total_Revenue from fact_bookings T1
+            inner join dim_hotels T2 on T1.property_id=T2.property_id group by T2.City;
 
 ------------------------------------------------------------------------------------------------------------------
 
