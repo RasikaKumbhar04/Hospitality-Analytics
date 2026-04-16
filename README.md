@@ -32,7 +32,7 @@ Designed as an industry‑ready BI project, this showcases strong skills across 
       - Cleaned null values, standardized dates, formats, and labels
       - Ensured consistent schemas across all BI tools
 
-3. Data Relationships & Modeling
+2. Data Relationships & Modeling
    
       Established primary relationships across:
 
@@ -44,7 +44,7 @@ Designed as an industry‑ready BI project, this showcases strong skills across 
 
       Ensured proper joins for accurate KPI calculations and dashboard performance.
 
-4. SQL Analysis & KPI Computation
+3. SQL Analysis & KPI Computation
    
    Developed SQL queries for:
       
@@ -54,7 +54,7 @@ Designed as an industry‑ready BI project, this showcases strong skills across 
             Cancellation & no‑show analysis
             Customer rating insights
 
-5. Dashboard Development
+4. Dashboard Development
    
             ✅ Excel → Pivot charts, slicers, interactive KPIs
             ✅ Tableau → Storytelling dashboards for executives
@@ -62,7 +62,7 @@ Designed as an industry‑ready BI project, this showcases strong skills across 
    
       All dashboards include filters for: City, Property, Channel, Room Category, Date.
 
-6. Business Insights & Recommendations
+5. Business Insights & Recommendations
 
       - Identified top‑performing cities & properties
       - Analyzed booking channels and revenue drivers
